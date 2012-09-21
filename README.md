@@ -21,12 +21,12 @@ The C++ source code contains at least 3 functions.
 * The entry point of the DLL DllMain needed by windows DLL system.
 * A Dummy function which is a void function taking no parameters and doing nothing. It is our trick to make Excel load the dll if it is in the same directory. Otherwise, except failure of loading it...
 
-An example code is in *dll.cpp*
+An example code is in **dll.cpp**
 
 Excel
 -----
 For Excel, we need a little trick for loading the dll from the same folder of the .xls file.
 The trick consist of executing a dummy function defined in the dll at the .xls loading
 
-The dummy system is written in *dummy.vb*
-The normal call of the function in vb is in *function_call.vb*
+The dummy system is written in **dummy.vb**
+The normal call of the function in vb is in **function_call.vb**

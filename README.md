@@ -30,3 +30,47 @@ The trick consist of executing a dummy function defined in the dll at the .xls l
 
 The dummy system is written in **dummy.vb**
 The normal call of the function in vb is in **function_call.vb**
+
+C++ and Excel Types compatibility
+---------------------------------
+<table>
+  <tr>
+    <th>Excel/VBA</th><th>C++</th>
+  </tr>
+  <tr>
+    <td>Byte</td><td>unsigned char</td>
+  </tr>
+  <tr>
+    <td>Boolean</td><td>[signed] short</td>
+  </tr>
+  <tr>
+    <td>Integer</td><td>[signed] [long] int</td>
+  </tr>
+  <tr>
+    <td>Currency</td><td>CY (type de <wtypes.h></td>
+  </tr>
+  <tr>
+    <td>Single</td><td>float</td>
+  </tr>
+  <tr>
+    <td>Double</td><td>double</td>
+  </tr>
+  <tr>
+    <td>Date</td><td>double</td>
+  </tr>
+  <tr>
+    <td>DATE</td><td>(type de &lt;wtypes.h&gt; </td>
+  </tr>
+  <tr>
+    <td>String</td><td>BSTR (type de &lt;wtypes.h&gt;</td>
+  </tr>
+  <tr>
+    <td>Variant</td><td>VARIANT (type de &lt;oaidl.h&gt;</td>
+  </tr>
+</table>
+
+Initialize a BSTR in C++
+________________________
+    char *mess="Hello World";
+    BSTR ret=SysAllocStringByteLen(mess,strlen(mess));
+

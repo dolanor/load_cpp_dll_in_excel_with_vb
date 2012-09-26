@@ -56,10 +56,7 @@ C++ and Excel Types compatibility
     <td>Double</td><td>double</td>
   </tr>
   <tr>
-    <td>Date</td><td>double</td>
-  </tr>
-  <tr>
-    <td>DATE</td><td>(type de &lt;wtypes.h&gt; </td>
+    <td>Date</td><td>double<br/>DATE (type de &lt;wtypes.h&gt;</td>
   </tr>
   <tr>
     <td>String</td><td>BSTR (type de &lt;wtypes.h&gt;</td>

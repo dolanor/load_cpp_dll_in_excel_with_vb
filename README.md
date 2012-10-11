@@ -47,7 +47,7 @@ C++ and Excel Types compatibility
     <td>Integer</td><td>[signed] [long] int</td>
   </tr>
   <tr>
-    <td>Currency</td><td>CY (type de &lt;wtypes.h&gt;</td>
+    <td>Currency</td><td>CY (type de &lt;wtypes.h&gt;)</td>
   </tr>
   <tr>
     <td>Single</td><td>float</td>
@@ -56,13 +56,13 @@ C++ and Excel Types compatibility
     <td>Double</td><td>double</td>
   </tr>
   <tr>
-    <td>Date</td><td>double<br/>DATE (type de &lt;wtypes.h&gt;</td>
+    <td>Date</td><td>double<br/>DATE (type de &lt;wtypes.h&gt;)</td>
   </tr>
   <tr>
-    <td>String</td><td>BSTR (type de &lt;wtypes.h&gt;</td>
+    <td>String</td><td>BSTR (type de &lt;wtypes.h&gt;)</td>
   </tr>
   <tr>
-    <td>Variant</td><td>VARIANT (type de &lt;oaidl.h&gt;</td>
+    <td>Variant</td><td>VARIANT (type de &lt;oaidl.h&gt;)</td>
   </tr>
 </table>
 

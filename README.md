@@ -47,7 +47,7 @@ C++ and Excel Types compatibility
     <td>Integer</td><td>[signed] [long] int</td>
   </tr>
   <tr>
-    <td>Currency</td><td>CY (type de <wtypes.h></td>
+    <td>Currency</td><td>CY (type de &lt;wtypes.h&gt;</td>
   </tr>
   <tr>
     <td>Single</td><td>float</td>

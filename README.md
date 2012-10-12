@@ -71,3 +71,13 @@ ________________________
     char *mess="Hello World";
     BSTR ret=SysAllocStringByteLen(mess,strlen(mess));
 
+Export an unsigned long long (ULONG64) from C++ to VB and back
+______________________________________________________________
+    unsigned long long X = 0x0123456789abcdef
+    unsigned int x1 = (X & (0xffffffffLL << 32)) >> 32;
+    unsigned int x2 = X & 0xffffffffLL;
+
+    unsigned long long reconstructed;
+    reconstructed = x1;
+    reconstructed <<= 32;
+    reconstructed |= x2;

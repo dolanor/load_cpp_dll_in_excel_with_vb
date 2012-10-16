@@ -44,7 +44,7 @@ C++ and Excel Types compatibility
     <td>Boolean</td><td>[signed] short</td>
   </tr>
   <tr>
-    <td>Integer</td><td>[signed] [long] int</td>
+    <td>Long</td><td>[signed] [long] int</td>
   </tr>
   <tr>
     <td>Currency</td><td>CY (type de &lt;wtypes.h&gt;)</td>
